@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(80, 129, 88);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav"
+    "main"
+    "footer"
+    ;
+}
+.on, .off{
+    display: none;
+}
+/*example to style the home pages main using the class key word */
+.mainL {
+    background-color: fuchsia;
+}
+.mainR {
+    background-color: lightcoral;
+}
+
+.home {
+    display: grid;
+    height: 40em;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "mainL mainM mainR";
+}
+.home.mainL{
+    grid-area: mainL;
+}
+.home.mainM{
+    grid-area: mainM;
+}
+.home.mainR{
+    grid: mainR;
+
+}

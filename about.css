@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
 }
-.on, .off{
+
+.on,
+.off {
     display: none;
 }
+
 nav {
-    background-color:#764040;
+    background-color: #c02b2b;
     grid-area: nav;
     height: 80px;
 
@@ -18,15 +21,16 @@ nav ul {
     list-style-type: none;
     display: flex;
     text-align: center;
-    
-    
+
+
     top: 10px;
 
 }
 
 main {
-    background-color: #764040;
+    background-color: #080808;
     grid-area: main;
+    height: 42em;
 }
 
 
@@ -48,8 +52,8 @@ main {
     font-size: 18px;
     line-height: 4rem;
     font-weight: 300;
-    
-   
+
+
 
 }
 
@@ -59,7 +63,8 @@ main {
     left: 700px;
 
 }
-.logo{
+
+.logo {
     left: 300px;
 }
 
@@ -67,6 +72,7 @@ main {
     color: gold;
 
 }
+
 .menu li a {
     position: relative;
     top: 10px;
@@ -74,10 +80,30 @@ main {
 
 }
 
-.menu li a:hover {
-    color: #EC4D37;
 
+
+body {
+    background-color: #000000;
 }
-body{
-    background-color: #1D1B1B;
+
+.aboutMain h1 {
+    display: block;
+    font-size: 8em;
+    font-family: 'Anton', sans-serif;
+   
+    text-transform: uppercase;
+    margin-left: 30%;
+    font-weight: 600;
+    color: gold;
+}
+.aboutMe1 p{
+    display: block;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+   text-align: left;
+    
+    margin-left: 15%;
+    font-weight: 600;
+    color: #ffffff;
+
 }

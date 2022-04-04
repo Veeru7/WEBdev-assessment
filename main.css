@@ -4,7 +4,7 @@
 }
 
 nav {
-    background-color:#c56336;
+    background-color:  #c02b2b;
     grid-area: nav;
     height: 80px;
 
@@ -23,7 +23,7 @@ nav ul {
 }
 
 main {
-    background-color: #9f7575;
+    background-color: #080808;
     grid-area: main;
 }
 
@@ -67,7 +67,7 @@ main {
 
 
 h1 {
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     text-align: center;
     margin-top: 10%;
     margin-right: 50%;
@@ -77,7 +77,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     text-align: center;
     margin-top: 10px;
     margin-right: 60%;
@@ -86,7 +86,7 @@ h2 {
 }
 
 p {
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     text-align: left;
     margin-top: 30px;
     margin-right: 30%;
@@ -98,13 +98,13 @@ p {
 
 }
 
-/*#vertical-line {
+#vertical-line {
     position: relative;
     width: 3px;
-    height: 440px;
-    background-color: rgb(0, 0, 0);
+    height: 400px;
+    background-color: gold;
     margin-left: 18%;
-    margin-top: -10%;
+    margin-top: -9%;
 
 
-}*/
+}

@@ -15,7 +15,8 @@ nav ul {
     list-style-type: none;
     display: grid;
     text-align: center;
-    grid-template-columns: 8% 10% 8% 10% 10%;
+    grid-template-columns: 10% 10% 8% 10% 10%;
+    
     top: 10px;
 
 }

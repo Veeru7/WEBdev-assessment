@@ -1,40 +1,35 @@
-body{
-    background-color: rgb(80, 129, 88);
+body {
+    background-color: rgb(0, 0, 0);
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas: 
-    "nav"
-    "main"
-    "footer"
+    grid-template-areas:
+        "nav"
+        "main"
+
     ;
 }
-.on, .off{
+
+.on,
+.off {
     display: none;
 }
-/*example to style the home pages main using the class key word */
-.mainL {
-    background-color: fuchsia;
-}
-.mainR {
-    background-color: lightcoral;
-}
 
-.home {
+
+
+/*example to style the home pages main using the class key word */
+
+main {
     display: grid;
     height: 40em;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas: 
-    "mainL mainM mainR";
+    grid-template-areas:
+        "main";
 }
-.home.mainL{
-    grid-area: mainL;
-}
-.home.mainM{
-    grid-area: mainM;
-}
-.home.mainR{
-    grid: mainR;
+
+main {
+    height: 43em;
+    color: rgb(236, 173, 96);
 
 }

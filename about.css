@@ -96,14 +96,28 @@ body {
     font-weight: 600;
     color: gold;
 }
-.aboutMe1 p{
+.aboutMain p{
     display: block;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
    text-align: left;
-    
+    margin-top: 40px;
     margin-left: 15%;
     font-weight: 600;
-    color: #ffffff;
+    color: #ffffff92;
 
+}
+ul li .logo{
+    color: gold;
+    font-family: 'Monoton', cursive;
+    font-size: 25px;
+}
+.aboutMain h4{
+    display: block;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15%;
+    margin-top: 2em;
+    font-weight: 600;
+    color: #ffffff;
 }

@@ -1,11 +1,13 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.on, .off{
+
+.on,
+.off {
     display: none;
 }
+
 nav {
     background-color: #c02b2b;
     grid-area: nav;
@@ -84,4 +86,33 @@ body {
     background-color: #000000;
 }
 
+.contactMain h1 {
+    display: block;
+    font-size: 8em;
+    font-family: 'Anton', sans-serif;
+
+    text-transform: uppercase;
+    margin-left: 30%;
+    font-weight: 600;
+    color: gold;
+}
+
+.contactMain p {
+    display: block;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+
+    margin-left: 15%;
+    font-weight: 600;
+    color: #ffffffdf;
+
+}
+ul li .logo{
+    
+    color: gold;
+    font-family: 'Monoton', cursive;
+    font-size: 25px;
+    
+}
 

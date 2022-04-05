@@ -39,3 +39,8 @@ nav ul {
 body{
     background-color: blanchedalmond;
 }
+ul li .logo{
+    color: gold;
+    font-family: 'Monoton', cursive;
+    font-size: 25px;
+}

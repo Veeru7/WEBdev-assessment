@@ -4,7 +4,7 @@
 }
 
 nav {
-    background-color:  #c02b2b;
+    background-color: #c02b2b;
     grid-area: nav;
     height: 80px;
 
@@ -16,8 +16,8 @@ nav ul {
     list-style-type: none;
     display: flex;
     text-align: center;
-    
-    
+
+
     top: 10px;
 
 }
@@ -45,8 +45,8 @@ main {
     text-decoration: none;
     font-size: 20px;
     line-height: 4rem;
-    
-   
+
+
 
 }
 
@@ -56,7 +56,8 @@ main {
     left: 700px;
 
 }
-.logo{
+
+.logo {
     left: 300px;
 }
 
@@ -92,8 +93,11 @@ p {
     margin-right: 30%;
     margin-left: 20%;
     font-size: 40px;
+    
     font-family: 'DM Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    
+    
+    
     font-weight: 700;
 
 }
@@ -106,5 +110,28 @@ p {
     margin-left: 18%;
     margin-top: -9%;
 
+
+}
+
+.live {
+    position: relative;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: gold;
+    animation: pulse 1500ms infinite;
+    top: -60%;
+    left: 17.3%;
+
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: gold 0 0 0 0;
+    }
+
+    75% {
+        box-shadow: rgba(255, 217, 0, 0.358) 0 0 0 16px;
+    }
 
 }

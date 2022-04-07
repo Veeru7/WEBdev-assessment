@@ -1,203 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.on,
-.off {
-    display: none;
-}
-
-nav {
-    background-color: #c02b2b;
-    grid-area: nav;
-    height: 80px;
-
-
-}
-
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    text-align: center;
-
-
-    top: 10px;
-
-}
-
-main {
-    background-color: #080808;
-    grid-area: main;
-    height: 42em;
-}
-
-
-.menu ul li {
-    list-style: none;
-    display: inline;
-
-}
-
-.menu li a {
-    color: #ffffff;
-    margin: 10px;
-    padding: 10px;
-    text-transform: lowercase;
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 4rem;
-    font-weight: 300;
-
-
-
-}
-
-.menu li a {
-    position: relative;
-    top: 10px;
-    left: 700px;
-
-}
-
-
-
-.menu li a:hover {
-    color: gold;
-
-}
-
-
-
-
-body {
-    background-color: #000000;
-}
-
-.aboutMain h1 {
-    display: block;
-    font-size: 8em;
-    font-family: 'Anton', sans-serif;
-
-    text-transform: uppercase;
-    margin-left: 30%;
-    font-weight: 600;
-    color: gold;
-}
-
-.aboutMain p {
-    display: block;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    text-align: left;
-    margin-top: 40px;
-    margin-left: 15%;
-    font-weight: 600;
-    color: #ffffff92;
-
-}
-
-ul li .logo {
-    color: gold;
-    font-family: 'Monoton', cursive;
-    font-size: 25px;
-}
-
-.aboutMain h4 {
-    display: block;
-    font-size: 3em;
-    font-family: 'Roboto', sans-serif;
-    margin-left: 15%;
-    margin-top: 2em;
-    font-weight: 600;
-    color: #ffffff;
-}
-
-.pie {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    background: #ffffff;
-
-    background: conic-gradient(
-        red 120deg,
-         yellow 120deg 240deg,
-          blue 240deg);
-}
-
-.pie {
-    display: block;
-    position: relative;
-    left: 35%;
-    margin-top: 170px;
-
-}
-.coder h3{
-    color: blue;
-    display: flex;
-    text-align: left;
-    font-size: 3em;
-    text-transform: uppercase;
-   position: absolute;
-   top: 19em;
-   left: 2em;
-}
-.coder ul{
-    color: #2159dba0;
-    display: block;
-    
-    text-align: left;
-    font-size: 30px;
-    text-transform: uppercase;
-   position: absolute;
-   top: 30em;
-   left: 2px;
-   padding-top: 3em;
-   padding-left: 2em;
-   font-family: 'Roboto', sans-serif;
-
-}
-.designer h3{
-    color: red;
-    display: flex;
-    text-align: left;
-    font-size: 3em;
-    text-transform: uppercase;
-   position: absolute;
-   top: 19em;
-   left: 22em;
-
-}
-
-.funfacts h3{
-    color: #d9c61d;
-    display: flex;
-    text-align: left;
-    font-size: 3em;
-    text-transform: uppercase;
-   position: absolute;
-   top: 30em;
-   left: 12em;
-
-}
-.funfacts ul{
-    color: #c6ab15a2;
-    display: block;
-    
-    text-align: left;
-    font-size: 30px;
-    text-transform: uppercase;
-   position: absolute;
-   top: 47em;
-   left: 16em;
-   padding: 3em;
-   font-family: 'Roboto', sans-serif;
-
-}
+/* ABOUT PAGE */
 
 * {
     margin: 0;
@@ -317,7 +118,7 @@ ul li .logo {
     font-weight: 600;
     color: #ffffff;
 }
-
+/* pie chart */
 .pie {
     width: 400px;
     height: 400px;
@@ -398,4 +199,50 @@ ul li .logo {
    padding: 3em;
    font-family: 'Roboto', sans-serif;
 
+}
+/* CONTACT PAGE */
+
+.contactMain h1 {
+    display: block;
+    font-size: 8em;
+    font-family: 'Anton', sans-serif;
+
+    text-transform: uppercase;
+    margin-left: 30%;
+    font-weight: 600;
+    color: gold;
+}
+
+.contactMain p {
+    display: block;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+
+    margin-left: 15%;
+    font-weight: 600;
+    color: #ffffffdf;
+
+}
+
+/* social media icons */
+.icons{
+    color: #ffffff;
+    font-size: 4em;
+    display: block;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 10%;
+
+}
+/* PORTFOLO PAGE */
+.portfolioMain h1 {
+    display: block;
+    font-size: 8em;
+    font-family: 'Anton', sans-serif;
+
+    text-transform: uppercase;
+    margin-left: 30%;
+    font-weight: 600;
+    color: gold;
 }

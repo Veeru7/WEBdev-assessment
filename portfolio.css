@@ -67,6 +67,11 @@ main {
 .logo {
     left: 300px;
 }
+ul li .logo {
+    color: gold;
+    font-family: 'Monoton', cursive;
+    font-size: 25px;
+}
 
 .menu li a:hover {
     color: gold;
@@ -79,9 +84,16 @@ main {
     left: 700px;
 
 }
-
-
-
 body {
     background-color: #000000;
+}
+.portfolioMain h1 {
+    display: block;
+    font-size: 8em;
+    font-family: 'Anton', sans-serif;
+
+    text-transform: uppercase;
+    margin-left: 30%;
+    font-weight: 600;
+    color: gold;
 }

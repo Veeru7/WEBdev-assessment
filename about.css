@@ -64,21 +64,13 @@ main {
 
 }
 
-.logo {
-    left: 300px;
-}
+
 
 .menu li a:hover {
     color: gold;
 
 }
 
-.menu li a {
-    position: relative;
-    top: 10px;
-    left: 700px;
-
-}
 
 
 
@@ -142,5 +134,67 @@ ul li .logo {
     position: relative;
     left: 35%;
     margin-top: 170px;
+
+}
+.coder h3{
+    color: blue;
+    display: flex;
+    text-align: left;
+    font-size: 3em;
+    text-transform: uppercase;
+   position: absolute;
+   top: 19em;
+   left: 2em;
+}
+.coder ul{
+    color: #2159dba0;
+    display: block;
+    
+    text-align: left;
+    font-size: 30px;
+    text-transform: uppercase;
+   position: absolute;
+   top: 30em;
+   left: 2px;
+   padding-top: 3em;
+   padding-left: 2em;
+   font-family: 'Roboto', sans-serif;
+
+}
+.designer h3{
+    color: red;
+    display: flex;
+    text-align: left;
+    font-size: 3em;
+    text-transform: uppercase;
+   position: absolute;
+   top: 19em;
+   left: 22em;
+
+}
+
+.funfacts h3{
+    color: #d9c61d;
+    display: flex;
+    text-align: left;
+    font-size: 3em;
+    text-transform: uppercase;
+   position: absolute;
+   top: 30em;
+   left: 12em;
+
+}
+.funfacts ul{
+    color: #c6ab15a2;
+    display: block;
+    
+    text-align: left;
+    font-size: 30px;
+    text-transform: uppercase;
+   position: absolute;
+   top: 47em;
+   left: 16em;
+   padding: 3em;
+   font-family: 'Roboto', sans-serif;
 
 }

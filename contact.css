@@ -115,4 +115,12 @@ ul li .logo{
     font-size: 25px;
     
 }
+.icons{
+    color: #ffffff;
+    font-size: 4em;
+    display: block;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 10%;
 
+}

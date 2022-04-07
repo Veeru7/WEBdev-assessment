@@ -1,5 +1,5 @@
 body{
-        background-color: rgb(36, 141, 202);
+      
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
@@ -60,6 +60,8 @@ body{
         left: 12%;
     
     }
+    
+
     
 
     

@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* navigation */
 nav {
     background-color: #c02b2b;
     grid-area: nav;
@@ -16,7 +16,7 @@ nav ul {
     display: flex;
     align-items: center;
 }
-
+/*  nav items */
 .menu li{
     padding: 11px;
 }
@@ -32,6 +32,11 @@ nav ul {
     padding: 10px;
     
 }
+.menu li a:hover {
+    color: gold;
+
+}
+/* LOGO */
 .logo {
     flex: 1;
     font-size: 25px;
@@ -44,10 +49,7 @@ nav ul {
     text-decoration: none;
 }
 
-.menu li a:hover {
-    color: gold;
-
-}
+/* main area for the website */
 main {
     background-color: #080808;
     grid-area: main;
@@ -69,7 +71,6 @@ h2 {
     margin-top: 10px;
     margin-right: 60%;
     font-size: 25px;
-
 }
 
 p {
@@ -79,15 +80,10 @@ p {
     margin-right: 30%;
     margin-left: 20%;
     font-size: 40px;
-    
     font-family: 'DM Sans', sans-serif;
-    
-    
-    
     font-weight: 500;
-
 }
-
+/* the vertical line  */
 #vertical-line {
     display: block;
     position: absolute;
@@ -97,10 +93,8 @@ p {
     margin-left: 16.7%;
     margin-top: -2%;
     top: 50%;
-
-
 }
-
+/* pulse dot  */
 .live {
     position: relative;
     height: 24px;
@@ -110,7 +104,6 @@ p {
     animation: pulse 1500ms infinite;
     top: -35%;
     left: 16%;
-
 }
 
 @keyframes pulse {
@@ -123,3 +116,4 @@ p {
     }
 
 }
+

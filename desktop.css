@@ -21,7 +21,7 @@ body {
 
 main {
     display: grid;
-    height: 45em;
+    height: 43em;
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas:

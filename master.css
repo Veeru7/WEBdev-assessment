@@ -28,11 +28,11 @@ nav ul {
     top: 10px;
 
 }
-
+/* page content space */
 main{
     background-color: #080808;
     grid-area: main;
-    height: 52em;
+    height: 50em;
 }
 
 
@@ -76,6 +76,7 @@ ul li .logo {
     color: gold;
     font-family: 'Monoton', cursive;
     font-size: 25px;
+    left: 12%;
 }
 
 
@@ -151,7 +152,7 @@ p {
 /* ABOUT PAGE */
 
 main.about{
-    height: 600em;
+    height: 130em;
 }
 .aboutMain h1 {
     display: block;
@@ -325,4 +326,5 @@ main.about{
 }
 .grid .col{
     align-items: center;
+    padding: 40px;
 }

@@ -203,6 +203,7 @@ main.about{
     display: block;
     position: relative;
     left: 35%;
+    top: 7em;
     margin-top: 170px;
 
 }
@@ -221,10 +222,10 @@ main.about{
     display: block;
     list-style: none;
     text-align: left;
-    font-size: 30px;
+    font-size: 19px;
     text-transform: uppercase;
    position: absolute;
-   top: 30em;
+   top: 49em;
    left: 2px;
    padding-top: 3em;
    padding-left: 2em;
@@ -242,6 +243,25 @@ main.about{
    left: 22em;
 
 }
+.designer ul{
+    color: #d52626ad;
+    display: block;
+    list-style: none;
+    text-align: left;
+    font-size: 19px;
+    text-transform: uppercase;
+   position: absolute;
+   top: 51em;
+   left: 67%;
+   padding-top: 10px;
+   padding-left: 2em;
+   font-family: 'Roboto', sans-serif;
+
+}
+.designer ul li{
+
+}
+
 
 .funfacts h3{
     color: #d9c61d;
@@ -268,6 +288,7 @@ main.about{
    font-family: 'Roboto', sans-serif;
 
 }
+
 /* CONTACT PAGE */
 
 .contactMain h1 {
@@ -296,15 +317,28 @@ main.about{
 }
 
 /* social media icons */
-.icons{
+.social ul{
+    margin-top: 70px;
+}
+.social li {
     color: #ffffff;
-    font-size: 4em;
+    padding: 10px;
+    font-size: 2em;
     display: block;
     position: relative;
-    margin-left: 20%;
-    margin-top: 10%;
-
+    
+    margin-left: 15%;
+    margin-top: 20px;
+    
 }
+.social li a {
+    color: #ffffff;
+   
+}
+.fa-facebook{
+    color: rgb(18, 107, 202);
+}
+
 /* PORTFOLO PAGE */
 .portfolioMain h1 {
     display: block;
@@ -327,4 +361,18 @@ main.about{
 .grid .col{
     align-items: center;
     padding: 40px;
+}
+/* BLOG PAGE */
+.blogMain h1 {
+    display: block;
+    
+    font-size: 8em;
+    font-family: 'Anton', sans-serif;
+    margin-top: 0em;
+    
+    text-transform: uppercase;
+    margin-left: 30%;
+    font-weight: 600;
+    color: gold;
+  
 }

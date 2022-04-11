@@ -315,3 +315,14 @@ main.about{
     font-weight: 600;
     color: gold;
 }
+.grid{
+    display: grid;
+    padding: 16px;
+    align-items: center;
+    
+    grid-gap: 13px;
+    grid-template-columns: repeat(3,1fr);
+}
+.grid .col{
+    align-items: center;
+}

@@ -32,7 +32,7 @@ nav ul {
 main{
     background-color: #080808;
     grid-area: main;
-    height: 50em;
+    height: 55em;
 }
 
 
@@ -194,21 +194,26 @@ main.about{
     background: #ffffff;
 
     background: conic-gradient(
-        red 120deg,
-         yellow 120deg 240deg,
-          blue 240deg);
+        
+        #96351E 36deg 155deg, #DBB98F 155deg);
 }
-
-.pie {
+.pieP{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.pieP .pie{
     display: block;
     position: relative;
     left: 35%;
-    top: 7em;
+    top: 4em;
     margin-top: 170px;
+    
 
 }
 .coder h3{
-    color: blue;
+    color: #DBB98F;
     display: flex;
     text-align: left;
     font-size: 3em;
@@ -218,7 +223,7 @@ main.about{
    left: 2em;
 }
 .coder ul{
-    color: #2159dba0;
+    color: #DBB98F;
     display: block;
     list-style: none;
     text-align: left;
@@ -226,14 +231,14 @@ main.about{
     text-transform: uppercase;
    position: absolute;
    top: 49em;
-   left: 2px;
+   left: 59px;
    padding-top: 3em;
    padding-left: 2em;
    font-family: 'Roboto', sans-serif;
 
 }
 .designer h3{
-    color: red;
+    color:  #96351E;
     display: flex;
     text-align: left;
     font-size: 3em;
@@ -244,7 +249,7 @@ main.about{
 
 }
 .designer ul{
-    color: #d52626ad;
+    color:  #96351E;
     display: block;
     list-style: none;
     text-align: left;
@@ -258,12 +263,14 @@ main.about{
    font-family: 'Roboto', sans-serif;
 
 }
-.designer ul li{
-
+.designer ul li {
+    margin-bottom: 5px;
 }
 
 
-.funfacts h3{
+/* temporaryly making this as a comment will place somehwhere else later  */
+
+/* .funfacts h3{
     color: #d9c61d;
     display: flex;
     text-align: left;
@@ -287,7 +294,7 @@ main.about{
    padding: 3em;
    font-family: 'Roboto', sans-serif;
 
-}
+} */
 
 /* CONTACT PAGE */
 
@@ -340,6 +347,9 @@ main.about{
 }
 
 /* PORTFOLO PAGE */
+.portfolio{
+    height: 76em;
+}
 .portfolioMain h1 {
     display: block;
     font-size: 8em;
@@ -350,17 +360,14 @@ main.about{
     font-weight: 600;
     color: gold;
 }
-.grid{
-    display: grid;
-    padding: 16px;
-    align-items: center;
+.portfolioMain .columns{
+    columns: 3;
+    margin-left: 3em;
     
-    grid-gap: 13px;
-    grid-template-columns: repeat(3,1fr);
+    
 }
-.grid .col{
-    align-items: center;
-    padding: 40px;
+.portfolioMain .col{
+    padding-top: 2em;
 }
 /* BLOG PAGE */
 .blogMain h1 {

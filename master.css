@@ -105,6 +105,14 @@ h2 {
    
     font-size: 25px;
 }
+h4{
+    color: #F8A145;
+    font-size: 27px;
+    text-align: center;
+    
+    font-weight: lighter;
+    margin-top: 39px;
+}
 
 p {
     color: #ffffffb0;
@@ -116,6 +124,10 @@ p {
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
 }
+hr.divider {
+    border-top: 3px solid #bbb;
+  }
+  
 /* the vertical line  */
 #vertical-line {
     display: block;
@@ -185,6 +197,7 @@ main.about{
     margin-top: 2em;
     font-weight: 600;
     color: #ffffff;
+    text-align: left;
 }
 /* pie chart */
 .pie {
@@ -371,7 +384,7 @@ main.about{
 }
 /* BLOG PAGE */
 .blog{
-    height: 76em;
+    height: auto;
 }
 .blogMain h1 {
     display: block;
@@ -393,4 +406,10 @@ main.about{
 }
 .blog p{
     color: #ffffff;
+    font-size: 22px;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-bottom: 18px;
+
 }
+

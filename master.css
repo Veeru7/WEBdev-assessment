@@ -9,6 +9,7 @@
 .off {
     display: none;
 }
+
 body {
     background-color: rgb(255, 255, 255);
     display: grid;
@@ -21,6 +22,7 @@ body {
 
     ;
 }
+
 nav {
     background-color: #c02b2b;
     grid-area: nav;
@@ -54,14 +56,15 @@ h2 {
     color: #ffffff;
     text-align: center;
     margin-top: 10px;
-   
+
     font-size: 25px;
 }
-h4{
+
+h4 {
     color: #F8A145;
     font-size: 27px;
     text-align: center;
-    
+
     font-weight: lighter;
     margin-top: 39px;
 }
@@ -76,16 +79,18 @@ p {
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
 }
+
 hr.divider {
     border-top: 3px solid #bbb;
-  }
-  main{
+}
+
+main {
     background-color: #080808;
     grid-area: main;
     height: 55em;
 }
 
-
+/* nav items which i named as menu */
 .menu ul li {
     list-style: none;
     display: inline;
@@ -101,7 +106,7 @@ hr.divider {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 4rem;
     font-weight: 300;
 
@@ -116,12 +121,13 @@ hr.divider {
 
 }
 
-
+/* nav logo */
 
 .menu li a:hover {
     color: gold;
 
 }
+
 ul li .logo {
     color: gold;
     font-family: 'Monoton', cursive;
@@ -130,23 +136,22 @@ ul li .logo {
 }
 
 
-
+/* Footer  */
 
 footer {
-    background-color: rgb(86, 84, 84);
+    background-color: rgb(30, 29, 29);
     display: grid;
-    height: 40px;
+    height: 42px;
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas:
         "footer";
 }
+
 footer ul {
     list-style-type: none;
     display: flex;
     text-align: center;
-
-
     top: 10px;
 
 }
@@ -161,27 +166,19 @@ footer li a {
     color: #ffffff;
     top: 10px;
     padding: 10px;
-    text-transform: lowercase;
-    
     font-family: 'Roboto', sans-serif;
-    
     text-decoration: none;
     font-size: 18px;
-    
     font-weight: 500;
-
-
-
 }
 
 footer li a {
     position: relative;
-   
+
     left: 900px;
 
 }
 
-
-
-
-
+.Flogo {
+    left: 5em;
+}

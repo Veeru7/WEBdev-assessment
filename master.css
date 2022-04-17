@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .on,
@@ -22,34 +23,10 @@ body {
 
     ;
 }
-
-nav {
-    background-color: #c02b2b;
-    grid-area: nav;
-    height: 80px;
-
-
-}
-
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    text-align: center;
-
-
-    top: 10px;
-
-}
-
 h1 {
     color: #ffffff;
-    text-align: center;
-    margin-top: 10%;
-    margin-right: 50%;
+    text-transform: capitalize;
     font-size: 50px;
-    text-transform: lowercase;
-    font-weight: 400;
 }
 
 h2 {
@@ -70,27 +47,52 @@ h4 {
 }
 
 p {
-    color: #ffffffb0;
-    text-align: left;
-    margin-top: 30px;
-    margin-right: 30%;
-    margin-left: 20%;
+    color: #fff;
     font-size: 40px;
     font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
+    margin: 40px 0;
+    padding: 0 0 0 80px;
+}
+.content-wrap p{
+    padding: 0 0 0 80px;
 }
 
 hr.divider {
-    border-top: 3px solid #bbb;
+    height: 3px;
+    border: 0;
+    background: #eee;
 }
 
 main {
     background-color: #080808;
     grid-area: main;
-    height: 55em;
+    /* height: 55em; */
 }
 
 /* nav items which i named as menu */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c02b2b;
+    grid-area: nav;
+    /* height: 80px; */
+    padding: 16px;
+}
+
+nav {
+    background-color: #c02b2b;
+    grid-area: nav;
+    /* height: 80px; */
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    top: 10px;
+}
 .menu ul li {
     list-style: none;
     display: inline;
@@ -114,13 +116,6 @@ main {
 
 }
 
-.menu li a {
-    position: relative;
-    top: 10px;
-    left: 700px;
-
-}
-
 /* nav logo */
 
 .menu li a:hover {
@@ -128,7 +123,7 @@ main {
 
 }
 
-ul li .logo {
+header .logo {
     color: gold;
     font-family: 'Monoton', cursive;
     font-size: 25px;
@@ -140,45 +135,29 @@ ul li .logo {
 
 footer {
     background-color: rgb(15, 14, 14);
-    display: grid;
-    height: 42px;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "footer";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+footer .copy{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .copy:hover{
+    color: gold;
 }
 
 footer ul {
-    list-style-type: none;
     display: flex;
-    text-align: center;
-    top: 10px;
-
 }
 
-footer ul li {
-    list-style: none;
-    display: inline;
-
-}
-
-footer li a {
+footer ul li a {
     color: #ffffff;
-    top: 10px;
-    padding: 10px;
+    margin: 0 15px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 500;
-}
-
-footer li a {
-    position: relative;
-
-    left: 900px;
-
-}
-
-.Flogo {
-    left: 5em;
 }

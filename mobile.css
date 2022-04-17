@@ -1,66 +1,70 @@
-body{
-      
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "nav"
-    "main"
-    ;}
-    nav ul{
-        display: flex;
-        flex-direction: column;
-    }
+nav ul{
+    display: flex;
+    flex-direction: column;
+}
 
-    nav {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 50%;
-        z-index: 100;
-      
-    }
+nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 50%;
+    z-index: 100;    
+}
+
+footer {
+    flex-direction: column;
+}
+
+footer .copy-rights {
+    margin-bottom: 20px;
+}
+
+#vertical-line{
+    height: calc(100% + 90px);
+}
     
-    #showNav:target .on {display: none;}
-    #showNav:target .off{display: block;}
-    #showNav .on {display: block;}
-    #showNav .off {display: none;}
+#showNav:target .on {display: none;}
+#showNav:target .off{display: block;}
+#showNav .on {display: block;}
+#showNav .off {display: none;}
 
-    #showNav:target nav {display: block;}
+#showNav:target nav {display: block;}
 
-    .on {
-        height: 0.8em;
-        width: 1.25em;
-        display: block;
-        border-top: 0.2em solid white;
-        border-bottom: 00.2em solid white;
-    }
-    .on::before {
-        content: '';
-        position: absolute;
-        width: 1.25em;
-        margin-top: 0.3em;
-        border-top: 0.2em solid white;
+.on {
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid white;
+    border-bottom: 00.2em solid white;
+}
+.on::before {
+    content: '';
+    position: absolute;
+    width: 1.25em;
+    margin-top: 0.3em;
+    border-top: 0.2em solid white;
+}
+ 
+/* ABOUT PAGE */
+.pieP{
+    flex-direction: column;
+    align-items: flex-start;
+}
 
+.pieP .pie {
+    margin: 30px 0;
+}
 
-    }
-    #vertical-line {
-       z-index: 1;
-       position: absolute;
-       top: 14%;
-       left: -3%;
-    }
-    
-    .live {
-        position: absolute;
-        top: 11%;
-        left: 12%;
-    
-    }
-    
-
-    
-
-    
+/* PORTFOLIO */
+.portfolioMain h1 {
+    font-size: 70px;
+}
+.portfolioMain .columns{
+    flex-direction: column;
+}
+.portfolioMain .col{
+    width: 100%;
+    margin: 10px 0;
+}

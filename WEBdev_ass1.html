@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="master.css" media="screen" />
-    <link rel="stylesheet" href="mobile.css" media="screen and (min-width: 300px) and (max-width: 800px)" />
-    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)" />
+    <link rel="stylesheet" href="master.css" media="screen" />    
+    <link rel="stylesheet" href="desktop.css" />
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 767px)" />
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,45 +32,48 @@
 
 <body id="showNav">
 
-
-    <nav class="menu">
+    <header>
+        <div class="logo-wrap">
+            <a class="logo" href="WEBdev_ass1.html">sathvik</a>
+        </div>
+                   
+        <a href="#showNav" class="on"></a>
         <a href="#" class="off">X</a>
 
+        <nav class="menu">    
+            <ul>
+                <li><a href="about.html">about</a></li>
+                <li><a href="portfolio.html">portfolio</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="report.html">report</a></li>    
+            </ul>
+        </nav>
+    </header>
+
+    <main class="home">
+        <section class="main">
+            <h1>hello world !</h1>
+            <div class="content-wrap">
+                <p>In this fast-moving world,I'm a smart, interractive programmer who creates, develops, and expands websites. These websites jog across the glob and on numerous outlets</p>
+                <div id="vertical-line"></div>
+                <div class="live"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="copy-rights">
+            <a class="copy" href="WEBdev_ass1.html">&copy; 2022 Sathvik Danam</a>
+        </div>
         <ul>
-            <li><a class="logo" href="WEBdev_ass1.html">sathvik</a></li>
             <li><a href="about.html">about</a></li>
             <li><a href="portfolio.html">portfolio</a></li>
             <li><a href="blog.html">blog</a></li>
             <li><a href="contact.html">contact</a></li>
             <li><a href="report.html">report</a></li>
-
         </ul>
-    </nav>
-    <main class="home">
-        <a href="#showNav" class="on"></a>
-        <a href="#" class="off">X</a>
-        <section class="main">
-
-
-            <h1>hello world !</h1>
-            <p>In this fast-moving world,I'm a smart, interractive programmer who creates, develops, and expands
-                websites. These websites jog across the glob and on numerous outlets</p>
-
-            <div id="vertical-line"></div>
-
-            <div class="live"></div>
-    </main>
-<footer>
-    <ul>
-        <li><a class="Flogo" href="WEBdev_ass1.html">&copy; 2022 Sathvik Danam</a></li>
-        <li><a href="about.html">about</a></li>
-        <li><a href="portfolio.html">portfolio</a></li>
-        <li><a href="blog.html">blog</a></li>
-        <li><a href="contact.html">contact</a></li>
-        <li><a href="report.html">report</a></li>
-
-    </ul>
-</footer>
+    </footer>
 </body>
 
 </html>

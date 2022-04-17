@@ -1,5 +1,4 @@
-/* HOME PAGE */
-/* navigation bar */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,12 +15,7 @@ body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas:
-        "nav"
-        "main"
-        "footer"
-
-    ;
+    grid-template-areas:"nav" "main" "footer" ;
 }
 h1 {
     color: #ffffff;
@@ -33,7 +27,6 @@ h2 {
     color: #ffffff;
     text-align: center;
     margin-top: 10px;
-
     font-size: 25px;
 }
 
@@ -41,7 +34,6 @@ h4 {
     color: #F8A145;
     font-size: 27px;
     text-align: center;
-
     font-weight: lighter;
     margin-top: 39px;
 }
@@ -51,7 +43,6 @@ p {
     font-size: 40px;
     font-family: 'DM Sans', sans-serif;
     margin: 40px 0;
-    padding: 0 0 0 80px;
 }
 .content-wrap p{
     padding: 0 0 0 80px;
@@ -66,7 +57,6 @@ hr.divider {
 main {
     background-color: #080808;
     grid-area: main;
-    /* height: 55em; */
 }
 
 /* nav items which i named as menu */
@@ -76,14 +66,12 @@ header{
     justify-content: space-between;
     background-color: #c02b2b;
     grid-area: nav;
-    /* height: 80px; */
     padding: 16px;
 }
 
 nav {
     background-color: #c02b2b;
     grid-area: nav;
-    /* height: 80px; */
 }
 
 
@@ -96,7 +84,6 @@ nav ul {
 .menu ul li {
     list-style: none;
     display: inline;
-
 }
 
 .menu li a {
@@ -111,16 +98,12 @@ nav ul {
     font-size: 19px;
     line-height: 4rem;
     font-weight: 300;
-
-
-
 }
 
 /* nav logo */
 
 .menu li a:hover {
     color: gold;
-
 }
 
 header .logo {
@@ -128,6 +111,7 @@ header .logo {
     font-family: 'Monoton', cursive;
     font-size: 25px;
     left: 12%;
+    text-decoration: none;
 }
 
 

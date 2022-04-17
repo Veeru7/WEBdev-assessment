@@ -1,4 +1,4 @@
-nav ul{
+nav ul {
     display: flex;
     flex-direction: column;
 }
@@ -10,7 +10,7 @@ nav {
     left: 0;
     height: 100vh;
     width: 50%;
-    z-index: 100;    
+    z-index: 100;
 }
 
 footer {
@@ -21,16 +21,29 @@ footer .copy-rights {
     margin-bottom: 20px;
 }
 
-#vertical-line{
+#vertical-line {
     height: calc(100% + 90px);
 }
-    
-#showNav:target .on {display: none;}
-#showNav:target .off{display: block;}
-#showNav .on {display: block;}
-#showNav .off {display: none;}
 
-#showNav:target nav {display: block;}
+#showNav:target .on {
+    display: none;
+}
+
+#showNav:target .off {
+    display: block;
+}
+
+#showNav .on {
+    display: block;
+}
+
+#showNav .off {
+    display: none;
+}
+
+#showNav:target nav {
+    display: block;
+}
 
 .on {
     height: 0.8em;
@@ -39,6 +52,7 @@ footer .copy-rights {
     border-top: 0.2em solid white;
     border-bottom: 00.2em solid white;
 }
+
 .on::before {
     content: '';
     position: absolute;
@@ -46,9 +60,9 @@ footer .copy-rights {
     margin-top: 0.3em;
     border-top: 0.2em solid white;
 }
- 
+
 /* ABOUT PAGE */
-.pieP{
+.pieP {
     flex-direction: column;
     align-items: flex-start;
 }
@@ -61,10 +75,32 @@ footer .copy-rights {
 .portfolioMain h1 {
     font-size: 70px;
 }
-.portfolioMain .columns{
+
+.portfolioMain .columns {
     flex-direction: column;
 }
-.portfolioMain .col{
+
+.portfolioMain .col {
     width: 100%;
     margin: 10px 0;
+}
+
+/* contact page */
+.contactMain h1 {
+    font-size: 4em;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: gold;
+}
+.contactMain p {    
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 0%;
+    font-weight: 600;
+    color: #ffffffdf;
+}
+.social ul {
+    flex-direction: column;
 }
